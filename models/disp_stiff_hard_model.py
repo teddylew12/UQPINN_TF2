@@ -1,22 +1,15 @@
 """
 @author: Ted Lewitt
-
-toDo:
-1) boundary conditions
-2) pde
-3) figure out what goes into encoder
-4) figure out the main script
-
 """
 
 import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
-from pigan import NeuralNetwork
 from collections import defaultdict
 from tqdm import tqdm
 import h5py
 
+from neural_network import NeuralNetwork
 
 class DISP_STIFF_UQPINN:
     # Initialize the class

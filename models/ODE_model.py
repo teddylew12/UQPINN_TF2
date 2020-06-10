@@ -6,11 +6,10 @@ Created on Wed Nov 2018
 
 import tensorflow as tf
 import numpy as np
-
-from pigan import NeuralNetwork
 from collections import defaultdict
 from tqdm import tqdm
 
+from neural_network import NeuralNetwork
 
 class ODE_UQPINN:
     # Initialize the class

@@ -1,7 +1,7 @@
 """
 Created on Wed Nov 2018
 
-@author: Yibo Yang
+@author:Theodore Lewitt
 """
 
 import os
